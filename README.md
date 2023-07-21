@@ -19,7 +19,7 @@ Kali-Purple alongside Windows Installation
 
 If you intend to use both Windows and Kali Linux systems, you should shrink your Windows virtual disk.
 
-![Screenshot](https://github.com/AlexeyLepov/KaliPurpleQuickStart/assets/77492646/489b4034-aae0-4f66-9366-87f30a634b94)
+![Screenshot_1](https://github.com/AlexeyLepov/KaliPurpleAlongsideWindows/assets/77492646/b1668e0c-b5e9-4b2b-a699-7d763786d452)
 
 `✅ Step 4:` Boot from the Kali Linux USB Drive
 
