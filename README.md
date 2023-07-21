@@ -17,7 +17,7 @@ Kali-Purple alongside Windows Installation
 
 `✅ Step 3:`  Allocate free space on your disk
 
-If you intend to use both Windows and Kali Linux systems, you should shrink your Windows virtual disk.
+If you intend to use both Windows and Kali Linux systems, you should shrink your Windows virtual disk:
 
 ![Screenshot_1](https://github.com/AlexeyLepov/KaliPurpleAlongsideWindows/assets/77492646/b1668e0c-b5e9-4b2b-a699-7d763786d452)
 
@@ -63,7 +63,9 @@ If you intend to use both Windows and Kali Linux systems, you should shrink your
 
 `🎉 Congrats!` You have successfully installed Kali Linux on your system. Remember to keep your system updated and secure by applying regular updates and using Kali Linux responsibly.
 
-
+```
+sudo apt update && apt upgrade
+```
 
 Useful Utils
 ====================================================================================================================
