@@ -19,7 +19,9 @@ Kali-Purple alongside Windows Installation
 
 If you intend to use both Windows and Kali Linux systems, you should shrink your Windows virtual disk:
 
-![Screenshot_1](https://github.com/AlexeyLepov/KaliPurpleAlongsideWindows/assets/77492646/b1668e0c-b5e9-4b2b-a699-7d763786d452)
+<div align="center"> 
+<img width=100% src="https://github.com/AlexeyLepov/KaliPurpleAlongsideWindows/assets/77492646/b1668e0c-b5e9-4b2b-a699-7d763786d452">
+</div>
 
 `✅ Step 4:` Boot from the Kali Linux USB Drive
 
@@ -33,12 +35,35 @@ If you intend to use both Windows and Kali Linux systems, you should shrink your
 - When your computer restarts, it should boot from the Kali Linux USB drive.
 - You'll be presented with the Kali Linux boot menu. Choose the "Graphical Install" option to start the installation process.
 
+<div align="center"> 
+<img width=100% src="https://github.com/AlexeyLepov/Kali-Purple-alongside-Windows/assets/77492646/3a1acf44-f671-4870-82e3-cabd375a5208">
+</div>
+
 `✅ Step 6:` Configure Kali Linux Installation
 
 - Select your preferred language, location, and keyboard layout.
-- Set up your hostname for the Kali Linux system.
-- Choose a strong root (administrative) password.
+
+<div align="center"> 
+<img width=100% src="https://github.com/AlexeyLepov/Kali-Purple-alongside-Windows/assets/77492646/7d4c3a76-00f3-4184-bf72-0a0bc18e9836">
+</div>
+
+- Set up your hostname for the Kali Linux system (you can leave the domain empty).
+
+<div align="center"> 
+<img width=100% src="https://github.com/AlexeyLepov/Kali-Purple-alongside-Windows/assets/77492646/a8d445e6-bcc1-4326-af47-738cddd9de53">
+<img width=100% src="https://github.com/AlexeyLepov/Kali-Purple-alongside-Windows/assets/77492646/35b725e2-3f1a-46c8-ae91-00e1be2d13f1">
+</div>
+
+- Create a user with a strong root password.
+
+<div align="center"> 
+<img width=100% src="https://github.com/AlexeyLepov/Kali-Purple-alongside-Windows/assets/77492646/5642d47f-caa7-4319-bbb3-533aee00d1ff">
+</div>
+
 - Configure the network (you may need to provide details like Wi-Fi credentials if you're using a wireless connection).
+
+
+
 
 `✅ Step 7:` Partitioning and Disk Setup
 
