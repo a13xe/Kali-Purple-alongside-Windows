@@ -1,7 +1,7 @@
 Kali-Purple alongside Windows Installation
 ====================================================================================================================
 
-### `✅ Step 0:` Make sure to back up your important data before attempting any installation. 
+Make sure to back up your important data before attempting any installation. 
 
 ### `✅ Step 1:` Downloading Kali Linux ISO
 
@@ -10,7 +10,7 @@ Kali-Purple alongside Windows Installation
 
 ### `✅ Step 2:` Create a Bootable USB Drive (or DVD)
 
-- To create a bootable USB drive, you can use software like [`Rufus`](https://github.com/pbatard/rufus/releases/tag/v4.1) for Windows or [`Etcher`](https://etcher.balena.io/) (Windows, macOS, Linux).
+- To create a bootable USB drive, you can use software like [Rufus](https://github.com/pbatard/rufus/releases/tag/v4.1) for Windows or [Etcher](https://etcher.balena.io/) (Windows, macOS, Linux).
 - Download and install the desired software.
 - Connect a USB flash drive (at least `8GB` in size) to your computer.
 - Run Rufus or Etcher, select the Kali Linux ISO you downloaded, and choose the connected USB drive as the target.
@@ -34,7 +34,7 @@ If you intend to use both Windows and Kali Linux systems, you should shrink your
 ### `✅ Step 5:` Start the Kali Linux Installation
 
 - When your computer restarts, it should boot from the Kali Linux USB drive.
-- You'll be presented with the Kali Linux boot menu. Choose the "Graphical Install" option to start the installation process.
+- You'll be presented with the Kali Linux boot menu. Choose the `Graphical Install` option to start the installation process.
 
 <div align="center"> 
 <img width=100% src="https://github.com/AlexeyLepov/Kali-Purple-alongside-Windows/assets/77492646/3a1acf44-f671-4870-82e3-cabd375a5208">
@@ -42,24 +42,11 @@ If you intend to use both Windows and Kali Linux systems, you should shrink your
 
 ### `✅ Step 6:` Configure Kali Linux Installation
 
-- Select your preferred language, location, and keyboard layout.
-
-<div align="center"> 
-<img width=100% src="https://github.com/AlexeyLepov/Kali-Purple-alongside-Windows/assets/77492646/7d4c3a76-00f3-4184-bf72-0a0bc18e9836">
-</div>
+- Select your preferred language, location, and keyboard layout, etc.
 
 - Set up your hostname for the Kali Linux system (you can leave the domain empty).
 
-<div align="center"> 
-<img width=100% src="https://github.com/AlexeyLepov/Kali-Purple-alongside-Windows/assets/77492646/a8d445e6-bcc1-4326-af47-738cddd9de53">
-<img width=100% src="https://github.com/AlexeyLepov/Kali-Purple-alongside-Windows/assets/77492646/35b725e2-3f1a-46c8-ae91-00e1be2d13f1">
-</div>
-
 - Create a user with a strong root password.
-
-<div align="center"> 
-<img width=100% src="https://github.com/AlexeyLepov/Kali-Purple-alongside-Windows/assets/77492646/5642d47f-caa7-4319-bbb3-533aee00d1ff">
-</div>
 
 - Configure the network (you may need to provide details like Wi-Fi credentials if you're using a wireless connection).
 
@@ -67,7 +54,7 @@ If you intend to use both Windows and Kali Linux systems, you should shrink your
 
 - Select the disk you want to use for installation.
 - Select the first option: `Guided - Use the largest continuous free space`
-- Review and confirm the partition changes.
+- Review and confirm the partition changes.You may also be interested in
 
 ### `✅ Step 8:` Install the System
 
@@ -80,7 +67,6 @@ If you intend to use both Windows and Kali Linux systems, you should shrink your
 - Once the installation is complete, the installer will prompt you to remove the installation media (USB/DVD) and press Enter to reboot the system.
 - Remove the USB drive or DVD and hit Enter to restart.
 - After the system reboots, you'll be presented with the Kali Linux login screen.
-- Enter the username "root" and the password you set during the installation process.
 
 ### `❗❗ Note: ❗❗` 
 
@@ -88,65 +74,12 @@ If you encounter any problems while on the stage `Select and install software` o
 
 ### `🎉 Congrats! 🎉` 
 
-You have successfully installed Kali Linux on your system. Remember to keep your system updated and secure by applying regular updates and using Kali Linux responsibly.
+- You have successfully installed Kali Linux on your system. Remember to keep your system updated and secure by applying regular updates and using Kali Linux responsibly.
 
-```
+- Enter terminal `Ctrl+Alt+T` and type:
+
+```bash
 sudo apt update && apt upgrade
 ```
 
-
-Useful Utils
-====================================================================================================================
-
-### ***`🔵 Guake `*** 
-
-[Guake](https://github.com/Guake/guake) is a drop-down terminal emulator that provides quick access to a terminal window by toggling its visibility with a hotkey (`F12` by default, but personally, I like to use `CTRL+~` combination for toggling it).
-
-- Press `Ctrl+Alt+T` to enter terminal and type:
-```
-sudo apt install guake
-xfce4-session-settings
-```
-- In the `Session and Startup` window, go to the `Application Autostart` tab.
-- Click on the `Add` button to add a new startup application.
-- In the `Add Application` dialog, provide the necessary information:
-  - Name: Guake (or any desired name)
-  - Description: Terminal dropdown
-  - Command: guake
-- Click "OK" to save the changes.
-
-
-### ***`🔵 Flameshot `*** 
-
-Powerful Screenshot [Tool](https://github.com/flameshot-org/flameshot)
-
-```
-sudo apt install flameshot
-xfce4-session-settings
-```
-
-- In the `Session and Startup` window, go to the `Application Autostart` tab.
-- Click on the `Add` button to add a new startup application.
-- In the `Add Application` dialog, provide the necessary information:
-  - Name: Flameshot (or any desired name)
-  - Description: Screenshot util
-  - Command: flameshot
-- Click "OK" to save the changes.
-
-### ***`🔵 Hardinfo `*** 
-
-System information and benchmarking utility.
-
-```
-sudo apt install hardinfo
-hardinfo
-```
-
-### ***`🔵 Grub customizer `*** 
-
-A graphical tool for customizing the GRUB bootloader on Linux systems, allowing users to easily manage boot options, themes, and other settings.
-
-```
-sudo apt install grub-customizer
-sudo grub-customizer
-```
+- You may also be interested in [this](https://github.com/AlexeyLepov/Kali-initial-setup)
