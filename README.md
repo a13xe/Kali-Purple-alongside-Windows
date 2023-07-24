@@ -79,7 +79,8 @@ If you encounter any problems while on the stage `Select and install software` o
 - Enter terminal `Ctrl+Alt+T` and type:
 
 ```bash
-sudo apt update && apt upgrade
+sudo apt-get update
+sudo apt-get upgrade
 ```
 
 - You may also be interested in [this](https://github.com/AlexeyLepov/Kali-initial-setup)
