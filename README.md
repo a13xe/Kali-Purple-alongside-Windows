@@ -37,7 +37,7 @@ If you intend to use both Windows and Kali Linux systems, you should shrink your
 - You'll be presented with the Kali Linux boot menu. Choose the `Graphical Install` option to start the installation process.
 
 <div align="center"> 
-<img width=100% src="https://github.com/AlexeyLepov/Kali-Purple-alongside-Windows/assets/77492646/3a1acf44-f671-4870-82e3-cabd375a5208">
+<img width=100% src="https://github.com/AlexeyLepov/Kali-Purple-alongside-Windows/assets/77492646/deaa4838-7b8d-4337-be39-77569aea472e">
 </div>
 
 ### `✅ Step 6:` Configure Kali Linux Installation
