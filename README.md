@@ -18,7 +18,7 @@ Make sure to back up your important data before attempting any installation.
 
 ### `✅ Step 3:`  Allocate free space on your disk
 
-If you intend to use both Windows and Kali Linux systems, you should shrink your Windows virtual disk (minimum of `20GB` required):
+If you intend to use both Windows and Kali Linux systems, you should shrink your Windows virtual disk. A minimum of `20GB` is required:
 
 <div align="center"> 
 <img width=100% src="https://github.com/AlexeyLepov/KaliPurpleAlongsideWindows/assets/77492646/b1668e0c-b5e9-4b2b-a699-7d763786d452">
@@ -27,9 +27,9 @@ If you intend to use both Windows and Kali Linux systems, you should shrink your
 ### `✅ Step 4:` Boot from the Kali Linux USB Drive
 
 - Insert the bootable USB drive into your computer's USB port.
-- Restart your computer and enter the BIOS or UEFI settings. The process for accessing BIOS/UEFI varies depending on your computer manufacturer (usually by pressing a key like `Del`, `F2`, `F12`, or `Esc` during boot).
-- In the BIOS/UEFI settings, change the boot order to prioritize the USB drive (or DVD drive if you're using a DVD) over the internal storage (or just override the boot).
-- Save the changes and exit the BIOS/UEFI settings `F10`.
+- Restart your computer and enter the BIOS or UEFI settings. The process for accessing BIOS/UEFI varies depending on your computer manufacturer. Usually, you can do this by pressing a key like `Del`, `F2`, `F12`, or `Esc` during boot.
+- In the BIOS/UEFI settings, change the boot order to prioritize the USB drive (or DVD drive if you're using a DVD) over the internal storage, or simply override the boot.
+- Save the changes and exit the BIOS/UEFI settings using `F10`.
 
 ### `✅ Step 5:` Start the Kali Linux Installation
 
@@ -67,7 +67,7 @@ If you intend to use both Windows and Kali Linux systems, you should shrink your
 
 ### `❗❗ Note: ❗❗` 
 
-If you encounter any problems while on the stage `Select and install software` or `Install the base system`, you should click on `Go back` button and try to install the GRUB loader first. After that, click on `Go back` again and there should be no problem with installing the software.
+If you encounter any problems while at the stage `Select and Install Software` or `Install the Base System`, you should click on the `Go Back` button and try to install the GRUB loader first. After that, click on `Go Back` again and there should be no problem with installing the software.
 
 ### `🎉 Congrats! 🎉` 
 
@@ -80,4 +80,4 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-- You may also be interested in [this](https://github.com/AlexeyLepov/Kali-initial-setup)
+- You may also be interested in the [Kali Linux initial setup](https://github.com/AlexeyLepov/Kali-initial-setup). 
