@@ -18,7 +18,7 @@ Make sure to back up your important data before attempting any installation.
 
 ### `✅ Step 3:`  Allocate free space on your disk
 
-If you intend to use both Windows and Kali Linux systems, you should shrink your Windows virtual disk (minimum of `20GB`):
+If you intend to use both Windows and Kali Linux systems, you should shrink your Windows virtual disk (minimum of `20GB` required):
 
 <div align="center"> 
 <img width=100% src="https://github.com/AlexeyLepov/KaliPurpleAlongsideWindows/assets/77492646/b1668e0c-b5e9-4b2b-a699-7d763786d452">
@@ -43,18 +43,15 @@ If you intend to use both Windows and Kali Linux systems, you should shrink your
 ### `✅ Step 6:` Configure Kali Linux Installation
 
 - Select your preferred language, location, and keyboard layout, etc.
-
 - Set up your hostname for the Kali Linux system (you can leave the domain empty).
-
 - Create a user with a strong root password.
-
 - Configure the network (you may need to provide details like Wi-Fi credentials if you're using a wireless connection).
 
 ### `✅ Step 7:` Partitioning and Disk Setup
 
 - Select the disk you want to use for installation.
-- Select the first option: `Guided - Use the largest continuous free space`
-- Review and confirm the partition changes.You may also be interested in
+- Select the first option: **`Guided - Use the largest continuous free space`**
+- Review and confirm the partition changes.
 
 ### `✅ Step 8:` Install the System
 
@@ -64,8 +61,8 @@ If you intend to use both Windows and Kali Linux systems, you should shrink your
 
 ### `✅ Step 9:` Complete the Installation
 
-- Once the installation is complete, the installer will prompt you to remove the installation media (USB/DVD) and press Enter to reboot the system.
-- Remove the USB drive or DVD and hit Enter to restart.
+- Once the installation is complete, the installer will prompt you to remove the installation media (USB/DVD) and press 'Enter' to reboot the system.
+- Remove the USB drive or DVD and hit 'Enter' to restart.
 - After the system reboots, you'll be presented with the Kali Linux login screen.
 
 ### `❗❗ Note: ❗❗` 
