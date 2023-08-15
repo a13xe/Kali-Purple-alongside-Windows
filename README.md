@@ -10,7 +10,7 @@ Make sure to back up your important data before attempting any installation.
 
 ### `✅ Step 2:` Create a Bootable USB Drive (or DVD)
 
-- To create a bootable USB drive, you can use software like [Rufus](https://github.com/pbatard/rufus/releases) for Windows or [Etcher](https://etcher.balena.io/).
+- To create a bootable USB drive, you can use software like [Rufus](https://github.com/pbatard/rufus/releases) or [Etcher](https://etcher.balena.io/).
 - Download and install the desired software.
 - Connect a USB flash drive (at least `8GB` in size) to your computer.
 - Run Rufus or Etcher, select the Kali Linux ISO you downloaded, and choose the connected USB drive as the target.
@@ -18,7 +18,7 @@ Make sure to back up your important data before attempting any installation.
 
 ### `✅ Step 3:`  Allocate free space on your disk
 
-If you intend to use both Windows and Kali Linux systems, you should shrink your Windows virtual disk. A minimum of `20GB` is required:
+If you intend to use both Windows and Kali Linux systems, you should shrink your Windows virtual disk. A minimum of `20GB` is required (the more, the better):
 
 <div align="center"> 
 <img width=100% src="https://github.com/AlexeyLepov/KaliPurpleAlongsideWindows/assets/77492646/b1668e0c-b5e9-4b2b-a699-7d763786d452">
@@ -80,4 +80,4 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-- You may also be interested in the [Kali Linux initial setup](https://github.com/AlexeyLepov/Kali-initial-setup). 
+- You may also be interested in [Kali Linux initial setup](https://github.com/AlexeyLepov/Kali-initial-setup). 
