@@ -10,7 +10,7 @@ Make sure to back up your important data before attempting any installation.
 
 ### `✅ Step 2:` Create a Bootable USB Drive (or DVD)
 
-- To create a bootable USB drive, you can use software like [Rufus](https://github.com/pbatard/rufus/releases/tag/v4.1) for Windows or [Etcher](https://etcher.balena.io/) (Windows, macOS, Linux).
+- To create a bootable USB drive, you can use software like [Rufus](https://github.com/pbatard/rufus/releases) for Windows or [Etcher](https://etcher.balena.io/).
 - Download and install the desired software.
 - Connect a USB flash drive (at least `8GB` in size) to your computer.
 - Run Rufus or Etcher, select the Kali Linux ISO you downloaded, and choose the connected USB drive as the target.
