@@ -1,7 +1,7 @@
 Kali-Purple alongside Windows Installation
 ====================================================================================================================
 
-Make sure to back up your important data before attempting any installation. 
+Make sure to back up your important data before attempting any installation.
 
 ### `✅ Step 1:` Downloading Kali Linux ISO
 
@@ -18,7 +18,7 @@ Make sure to back up your important data before attempting any installation.
 
 ### `✅ Step 3:`  Allocate free space on your disk
 
-If you intend to use both Windows and Kali Linux systems, you should shrink your Windows virtual disk. A minimum of `20GB` is required (the more, the better):
+If you intend to use both Windows and Kali Linux systems, you should shrink your Windows virtual disk. A minimum of `25GB` is required (the more, the better):
 
 <div align="center"> 
 <img width=100% src="https://github.com/AlexeyLepov/KaliPurpleAlongsideWindows/assets/77492646/b1668e0c-b5e9-4b2b-a699-7d763786d452">
@@ -80,4 +80,4 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-- You may also be interested in [Kali Linux initial setup](https://github.com/AlexeyLepov/Kali-initial-setup). 
+- You may also be interested in [Kali Linux initial setup](https://github.com/a13xe/Kali-initial-setup). 
