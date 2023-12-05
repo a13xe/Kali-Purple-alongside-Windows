@@ -6,7 +6,7 @@ Make sure to back up your important data before attempting any installation.
 ### `✅ Step 1:` Downloading Kali Linux ISO
 
 - Visit the official Kali Linux [website](https://www.kali.org/downloads/)
-- Or use the direct [download link](https://cdimage.kali.org/kali-2023.2/kali-linux-2023.2a-installer-purple-amd64.iso)
+- Or use the direct [download link](https://cdimage.kali.org/kali-2023.3/kali-linux-2023.3-installer-purple-amd64.iso)
 
 ### `✅ Step 2:` Create a Bootable USB Drive (or DVD)
 
