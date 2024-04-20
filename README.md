@@ -4,7 +4,7 @@ Kali-Purple alongside Windows Installation
 ### `✅ Step 1:` Downloading Kali Linux ISO
 
 - Make sure to back up your important data before attempting any installation
-- Visit the official Kali Linux [website](https://www.kali.org/get-kali/#kali-installer-images) and scroll down or use the [direct download link](https://cdimage.kali.org/kali-2023.3/kali-linux-2023.3-installer-purple-amd64.iso) (3.9GB)
+- Visit the official Kali Linux [website](https://www.kali.org/get-kali/#kali-installer-images) and scroll down or use the [direct download link](https://cdimage.kali.org/kali-2024.1/kali-linux-2024.1-installer-purple-amd64.iso) (3.9GB)
 
 ### `✅ Step 2:` Create a Bootable USB Drive (or DVD)
 
