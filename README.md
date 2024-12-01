@@ -4,7 +4,8 @@ Kali-Purple alongside Windows Installation
 ### `✅ Step 1:` Downloading Kali Linux ISO
 
 - Make sure to back up your important data before attempting any installation
-- Visit the official Kali Linux [website](https://www.kali.org/get-kali/#kali-installer-images) and scroll down or use the [direct download link](https://cdimage.kali.org/kali-2024.1/kali-linux-2024.1-installer-purple-amd64.iso) (3.9GB)
+- Visit the official Kali Linux [website](https://www.kali.org/get-kali/#kali-installer-images) and scroll down
+- [Direct download link](https://cdimage.kali.org/kali-2024.3/kali-linux-2024.3a-installer-purple-amd64.iso)
 
 ### `✅ Step 2:` Create a Bootable USB Drive (or DVD)
 
@@ -16,7 +17,7 @@ Kali-Purple alongside Windows Installation
 
 ### `✅ Step 3:`  Allocate free space on your disk
 
-If you intend to use both Windows and Kali Linux systems, you should shrink your Windows virtual disk. A minimum of `25GB` is required (the more, the better):
+Shrink your Windows virtual disk. A minimum of `25GB` is required:
 
 <div align="center"> 
 <img width=100% src="https://github.com/AlexeyLepov/KaliPurpleAlongsideWindows/assets/77492646/b1668e0c-b5e9-4b2b-a699-7d763786d452">
@@ -24,58 +25,47 @@ If you intend to use both Windows and Kali Linux systems, you should shrink your
 
 ### `✅ Step 4:` Boot from the Kali Linux USB Drive
 
-- Insert the bootable USB drive into your computer's USB port.
-- Restart your computer and enter the BIOS or UEFI settings. The process for accessing BIOS/UEFI varies depending on your computer manufacturer. Usually, you can do this by pressing a key like `Del`, `F2`, `F12`, or `Esc` during boot.
-- In the BIOS/UEFI settings, change the boot order to prioritize the USB drive (or DVD drive if you're using a DVD) over the internal storage, or simply override the boot.
-- Save the changes and exit the BIOS/UEFI settings using `F10`.
+- Insert the bootable USB drive into your computer's USB port
+- Restart your computer and enter the BIOS or UEFI settings. The process for accessing BIOS/UEFI varies depending on your computer manufacturer. Usually, you can do this by pressing a key like `Del`, `F2`, `F12`, or `Esc` during boot
+- In the BIOS/UEFI settings, change the boot order to prioritize the USB drive (or DVD drive if you're using a DVD) over the internal storage, or simply override the boot
+- Save the changes and exit the BIOS/UEFI settings using `F10`
 
 ### `✅ Step 5:` Start the Kali Linux Installation
 
-- When your computer restarts, it should boot from the Kali Linux USB drive.
-- You'll be presented with the Kali Linux boot menu. Choose the `Graphical Install` option to start the installation process.
+- When your computer restarts, it should boot from the Kali Linux USB drive
+- You'll be presented with the Kali Linux boot menu. Choose the `Graphical Install` option to start the installation process
+- Select your preferred language, location, and keyboard layout, etc.
 
 <div align="center"> 
 <img width=100% src="https://github.com/AlexeyLepov/Kali-Purple-alongside-Windows/assets/77492646/deaa4838-7b8d-4337-be39-77569aea472e">
 </div>
 
-### `✅ Step 6:` Configure Kali Linux Installation
+### `✅ Step 6:` Partitioning and Disk Setup
 
-- Select your preferred language, location, and keyboard layout, etc.
-- Set up your hostname for the Kali Linux system (you can leave the domain empty).
-- Create a user with a strong root password.
-- Configure the network (you may need to provide details like Wi-Fi credentials if you're using a wireless connection).
-
-### `✅ Step 7:` Partitioning and Disk Setup
-
-- Select the disk you want to use for installation.
+- Select the disk that you have shrunk
 - Select the first option: **`Guided - Use the largest continuous free space`**
-- Review and confirm the partition changes.
+- Review and confirm the partition changes
 
-### `✅ Step 8:` Install the System
+### `✅ Step 7:` Install the System
 
-- The installer will proceed to install Kali Linux onto the selected disk.
-- During the installation, you may be asked to set up the system clock and configure the package manager. Choose the appropriate options based on your location and preferences.
-- The installer will prompt you to install the GRUB boot loader. Confirm the installation on the same disk where Kali Linux is being installed.
+- The installer will proceed to install Kali Linux onto the selected disk
+- The installer will prompt you to install the GRUB boot loader. Confirm the installation on the same disk where Kali Linux is being installed
 
-### `✅ Step 9:` Complete the Installation
+### `✅ Step 8:` Complete the Installation
 
-- Once the installation is complete, the installer will prompt you to remove the installation media (USB/DVD) and press 'Enter' to reboot the system.
-- Remove the USB drive or DVD and hit 'Enter' to restart.
-- After the system reboots, you'll be presented with the Kali Linux login screen.
+- Once the installation is complete, the installer will prompt you to remove the installation media (USB/DVD) and press 'Enter' to reboot the system
+- Remove the USB drive or DVD and hit 'Enter' to restart
+- After the system reboots, you'll be presented with GRUB loader
 
 ### `❗❗ Note: ❗❗` 
 
-If you encounter any problems while at the stage `Select and Install Software` or `Install the Base System`, you should click on the `Go Back` button and try to install the GRUB loader first. After that, click on `Go Back` again and there should be no problem with installing the software.
+If you encounter any problems while at the stage `Select and Install Software` or `Install the Base System`, you should click on the `Go Back` button and try to install the GRUB loader first. After that, click on `Go Back` again and there should be no problem with installing the software
 
 ### `🎉 Congrats! 🎉` 
 
-- You have successfully installed Kali Linux on your system. Remember to keep your system updated and secure by applying regular updates and using Kali Linux responsibly.
-
-- Enter terminal `Ctrl+Alt+T` and type:
+You have successfully installed Kali Purple. Remember to keep your system updated and secure by applying regular updates and using it responsibly
 
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
 ```
-
-- You may also be interested in [Kali Linux initial setup](https://github.com/a13xe/Kali-initial-setup). 
